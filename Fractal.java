@@ -69,8 +69,7 @@ public class Fractal {
     	drawKochCurve(p5, p2, level - 1);	
     	
     }
-        // TODO
-        // Koch subdivision rule: ___ ->  _/\_
+        
   }
 
   // Recursive method for drawing a fractal Tree given two points and the recursion level
@@ -102,7 +101,7 @@ public class Fractal {
         drawTree(p3, p5, level - 1);
         
     }
-       // TODO
+       
   }
 
   // Recursive method for drawing the Sierpinski Triangle given the three points
@@ -128,7 +127,7 @@ public class Fractal {
     	drawSierpinskiTriangle(p5, p6, p3, level - 1);
     }
     
-        // TODO
+        
   }
 
   // Recursive method for drawing the Sierpinski Carpet given the lower-left corner
@@ -159,21 +158,12 @@ public class Fractal {
     	
     	
     }
-        // TODO
+        
   }
 
-  // This method is left for you to experiment with creative fractals
-  // designed by yourself. You will NOT be graded on this method 
-  void drawMyFractal(/* other parameters that you may need */ int level) {
-    if (level == 0) { // base case
-      return;
-    }
-    /* Your creative fractal shape */
-  }
+  
 
-  /** The code below provides utility methods.
-   *  You should NOT need to modify any code below.
-   */
+  /** The code below provides utility methods.*/
   public void draw() {
     if (g2d == null || width == 0 || height == 0) {
       return;
